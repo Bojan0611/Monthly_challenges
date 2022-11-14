@@ -3,8 +3,8 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def index(request):
-    return HttpResponse("This works!")
+def january(request):
+    return HttpResponse("Eat no meat for all month")
 
 
 def february(request):
