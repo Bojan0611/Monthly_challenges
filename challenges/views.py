@@ -5,3 +5,7 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("This works!")
+
+
+def february(request):
+    return HttpResponse("Meditation for 20 minutes")
